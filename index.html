@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Css</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div>
+        <nav class="nav flex flex-wrap items-center justify-between px-4 bg-gray-800 px-20">
+        
+            <div class="flex flex-no-shrink items-center mr-6 py-3 text-grey-darkest">
+            <span class="font-semibold text-xl tracking-tight text-white">Tailwind Css</span>
+        
+            </div>
+        </nav>
+        <main>  
+            <div class="container ml-auto mr-auto flex flex-wrap items-start mt-8">
+
+                <div class="w-full pl-2 pr-2 mb-4 mt-4">
+                  <h1 class="text-3xl font-extrabold text-center"> Como Crear un Formulario con Tailwind CSS</h1>
+                </div>
+                
+              </div> 
+
+              <div class="container ml-auto mr-auto flex items-center justify-center">
+                <div class="w-full md:w-1/2">
+
+                    <form class="bg-white px-8 pt-6 pb-8 mb-4">
+
+                        <div class="grid grid-flow-row sm:grid-flow-col gap-3">
+                            <div class="sm:col-span-4 justify-center">
+                              <label class="block text-gray-700 text-sm font-bold mb-2" for="nya"> Nombres y Apellidos </label>
+                              <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="nya" type="text" placeholder="Carlos Torres" required>
+                            </div>
+                            <div class="sm:col-span-4 justify-center">
+                              <label class="block text-gray-700 text-sm font-bold mb-2" for="email"> Email </label>
+                              <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="ctorres@mail.com" required>
+                            </div>
+                          </div>
+                          <div class="mb-4">
+                            <label class="block text-gray-700 text-sm font-bold mb-2" for="asunto"> Asunto </label>
+                            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="asunto" type="text" placeholder="Venta de Productos" required>
+                          </div> 
+                          <div class="mb-4">
+                            <label class="block text-gray-700 text-sm font-bold mb-2" for="mensaje"> Mensaje </label>
+                            <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="mensaje" rows="5" placeholder="El mensaje" required></textarea>
+                          </div>
+                          
+                            <div class="flex items-center justify-between">
+                                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit"> Aceptar </button>
+                              </div>
+                          
+                    </form>
+
+                </div>
+
+              </div>
+        </main>
+    </div>
+</body>
+</html>
